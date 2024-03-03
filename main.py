@@ -61,7 +61,7 @@ city=data["name"]
 
 
 
-# Cnstruct the output with weather icons
+# Construct the output with weather icons
 weather_icon = WEATHER_ICONS.get(icon,"")
 output = f"{pyfiglet.figlet_format(city)}\n\n"
 output += f"{weather_icon} {description}\n"
